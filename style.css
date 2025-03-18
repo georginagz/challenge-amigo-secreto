@@ -1,9 +1,9 @@
 :root {
-    --color-primary: #4B69FD;
-    --color-secondary: #FFF9EB;
+    --color-primary:rgb(255, 255, 255);
+    --color-secondary:rgb(252, 179, 3);
     --color-tertiary: #C4C4C4;
-    --color-button: #fe652b;
-    --color-button-hover: #e55720;
+    --color-button:rgb(176, 37, 231);
+    --color-button-hover:rgb(57, 6, 116);
     --color-text: #444444;
     --color-white: #FFFFFF;
 }
@@ -32,11 +32,11 @@ body {
 
 /* Banner */
 .header-banner {
-    flex: 40%;
+    flex: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 40px 0 0;
+    padding: 30px 0 0;
 }
 
 /* Sección de entrada */
@@ -54,11 +54,11 @@ body {
 
 /* Títulos */
 .main-title {
-    font-size: 48px;
+    font-size: 70px;
     font-family: "Merriweather", serif;
     font-weight: 900;
     font-style: italic;
-    color: var(--color-white);
+    color: var(--color-secondary);
 }
 
 .section-title {
@@ -75,7 +75,7 @@ body {
     display: flex;
     justify-content: center;
     width: 100%;
-    max-width: 600px;
+    max-width: 500px;
     margin-top: 20px;
 }
 
@@ -136,7 +136,7 @@ ul {
 
 .result-list {
     margin-top: 15px;
-    color: #05DF05;
+    color:rgb(0, 0, 0);
     font-size: 22px;
     font-weight: bold;
     text-align: center;
@@ -154,7 +154,7 @@ ul {
 }
 
 .button-draw img {
-    margin-right: 40px;
+    margin-right: 50px;
 }
 
 .button-draw:hover {
