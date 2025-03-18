@@ -13,3 +13,7 @@ Validar entrada: Si el campo de texto está vacío, el programa mostrará una al
 Visualizar la lista: Los nombres ingresados aparecerán en una lista debajo del campo de entrada.
 
 Sorteo aleatorio: Al hacer clic en el botón "Sortear Amigo", se seleccionará aleatoriamente un nombre de la lista y se mostrará en la página.
+
+La aplicación debe dar el nombre de todos los amigos listados y una vez que el nombre aleatorio haya aparecido en la pagina aparecerá un mensaje "No hay suficientes amigos para sortear o ya se han sorteado todos los amigos"
+
+Se agregó un botón para re-iniciar el sorteo.
